@@ -31,3 +31,13 @@ pode-se selecionar através do css...
     var titulo = document.querySelector(".titulo");
     titulo.textContent = "Aparecida Nutricionista";
 </script>
+
+------------------------------------------------------------------------------------------------------------------------
+
+para declarar uma variável...
+
+var mensagem = "Sejam Bem - Vindos!";
+
+...e exibir em um pop up
+
+alert(mensagem);
