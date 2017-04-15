@@ -1,0 +1,33 @@
+Com o uso do DOM - document, pode-se fazer alterações no console da página.
+
+No exemplo, o console.log(document.querySelector("h1"); dentro do body, solicitou a busca por h1 e, no console exibiu
+null porque a busca é feita linha por linha, então o certo é colocar...
+
+<script>
+    console.log(document.querySelector("h1");
+</script>
+
+...no final do código antes do </body>, assim não exibirá mais o null no console.
+
+------------------------------------------------------------------------------------------------------------------------
+
+para alterar o nome dado para exibir na tela deverá criar uma variável...
+
+<script>
+    var titulo = document.querySelector("h1");
+
+	titulo.textContent = "Aparecida Nutricionista";
+</script>
+
+...o textContent funciona apenas para as tags h1, h2, p e span.
+
+------------------------------------------------------------------------------------------------------------------------
+
+pode-se selecionar através do css...
+
+<h2 class="titulo"> Aparecida Nutricionista </h2>
+
+<script>
+    var titulo = document.querySelector(".titulo");
+    titulo.textContent = "Aparecida Nutricionista";
+</script>
