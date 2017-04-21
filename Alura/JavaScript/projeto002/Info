@@ -1,3 +1,16 @@
+
+<tr> - Linha
+<td> - Coluna
+<th> - célula em negrito
+<thead> - cabeçalho da tabela
+<tbody> - corpo da tabela
+<tfoot> - rodapé da tabela
+querySelector - Selecionar o item
+document.createElement(""); - cria um element
+document.getElementById(""); - pega o elemento pelo id
+
+------------------------------------------------------------------------------------------------------------------------
+
 Com o uso do DOM - document, pode-se fazer alterações no console da página.
 
 No exemplo, o console.log(document.querySelector("h1"); dentro do body, solicitou a busca por h1 e, no console exibiu
@@ -41,3 +54,5 @@ var mensagem = "Sejam Bem - Vindos!";
 ...e exibir em um pop up
 
 alert(mensagem);
+
+------------------------------------------------------------------------------------------------------------------------
